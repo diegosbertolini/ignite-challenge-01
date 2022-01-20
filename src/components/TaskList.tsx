@@ -23,6 +23,7 @@ export function TaskList() {
       title: newTaskTitle,
       isComplete: false //n'ao queremos adicionar uma nova task que esteja completa      
     }
+    
     setNewTaskTitle('')
     setTasks(oldState => [...oldState,newTask])
   }
